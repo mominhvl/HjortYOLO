@@ -23,6 +23,22 @@ Our research focuses on achieving a balance between **detection accuracy, comput
 - **Wildlife segmentation:** Incorporated SAM2 for pixel-level segmentation of detected animals.
 - **Evaluation across datasets:** Validated using the Svanøy deer dataset from Norway and the African Wildlife dataset.
 
+
+## Datasets
+## Svanøy Deer Dataset
+The dataset contains camera-trap imagery collected on Svanøy Island, Norway, including day and night observations of red deer.
+
+## African Wildlife Dataset
+The dataset includes:
+
+Buffalo
+Elephant
+Rhino
+Zebra
+Please refer to the original sources for dataset licensing and access.
+
+
+
 ## Experimental Results
 
 On the Svanøy deer dataset, Hjort-YOLO demonstrated the following performance compared with YOLOv11n:
@@ -53,6 +69,33 @@ Momin, M. A., Khan, M., Arghandeh, R., Bischof, R., Hegland, S. J., Moen, T., & 
 
 https://doi.org/10.3389/frai.2026.1930016
 
-## Acknowledgment
 
-This research was conducted as part of the WILDETECT project, exploring technologies for wildlife detection and potential mitigation of animal–vehicle collisions in Norway.
+or,
+
+If you use Hjort-YOLO in your research, please cite:
+
+@article{momin2026hjortyolo,
+  title={Hjort-YOLO: A Lightweight and Explainable Computer Vision Framework for Wildlife Detection},
+  author={Momin, Md Abdul and Khan, Mehak and Arghandeh, Reza and Bischof, Richard and Hegland, Stein Joar and Moen, Terje and Stølen, Martin F.},
+  journal={Frontiers in Artificial Intelligence},
+  volume={9},
+  pages={1930016},
+  year={2026},
+  doi={10.3389/frai.2026.1930016}
+}
+
+
+## Acknowledgment
+This work was conducted under the WILDETECT project and supported by the Research Council of Norway (Project No. 344408), in collaboration with:
+
+Western Norway University of Applied Sciences (HVL)
+Norwegian Institute for Nature Research (NINA)
+SINTEF
+Norwegian Public Roads Administration (NPRA)
+IMSA Knowledge Company
+
+
+## Contact
+Md Abdul Momin (PhD student)
+Western Norway University of Applied Sciences (HVL)
+📧 momin.md.abdul@hvl.no
